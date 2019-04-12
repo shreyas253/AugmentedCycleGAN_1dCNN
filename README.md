@@ -6,13 +6,13 @@ Tensorflow (Python) implementation of an Augmented Cycle Consistant Adverserial 
 
 Comments/questions are welcome! Please contact: shreyas.seshadri@aalto.fi
 
-Last updated: 30.10.2018
+Last updated: 12.04.2019
 
 
 LICENSE
 -------
 
-Copyright (C) 2018 Shreyas Seshadri, Aalto University
+Copyright (C) 2019 Shreyas Seshadri, Aalto University
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
@@ -38,6 +38,8 @@ FILES AND FUNCTIONS
 train_aygCycleGAN.py - Augmented CycleGAN implementation using WGAN loss with gradient penalty [1,2,3]
 
 model_convNet.py - 1D CNN implementation with gated units, residual connections, potNets and dilations
+
+pyDat.mat - random training data is the required format
 
 REFERENCES
 ---------
